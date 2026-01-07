@@ -3,8 +3,5 @@
 # syntax
 # a={"key":"value"}
 
-d1={"name":"shruti","age":25,"address":"nashik","pin":42209}
+d1={"name","onkar","depatment","computer Engineering","Roll Number","07","year","TE"}
 print(d1)
-print(d1['name'])
-print(d1['pin'])
-print(d1['age'])
