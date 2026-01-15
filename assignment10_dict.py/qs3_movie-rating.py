@@ -26,9 +26,8 @@ print(rating)
 # Find the highest rated movie
 higest_movie=""
 avg=0
-if(higest_movie>rating):
-      print(rating)
-       
+for movie in rating()
+
 
 
 

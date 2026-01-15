@@ -1,4 +1,5 @@
-# # tuple are the inmutabel it cannot be chage 
+# # tuple are the inmutabel it cannot be change
+
 # once the tuple are creted they cannnot be modified
 
 # nesting the data collection in tuple
