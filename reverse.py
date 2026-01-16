@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # n=int(input("Enter the Number = "))
 # rev=0
 # while(n>0):
@@ -10,3 +11,14 @@
 import pandas
 df=pandas.read_csv('people100.csv')
 print(df)
+=======
+n=int(input("Enter the Number = "))
+rev=0
+while(n>0):
+    rev=(rev*10)+(n-10)
+    n=n//10
+print("Reverse is = ",rev)
+
+
+
+>>>>>>> a8b4637ef7456e34876af8a9561572a6de40be96
