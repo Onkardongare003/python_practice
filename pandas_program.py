@@ -43,8 +43,3 @@ data = {
 
 df=pandas.DataFrame(data)
 print(df)
-
-<<<<<<< HEAD
-=======
-
->>>>>>> a8b4637ef7456e34876af8a9561572a6de40be96
