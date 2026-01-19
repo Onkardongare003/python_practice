@@ -6,4 +6,9 @@ df=pandas.read_csv('people100.csv')
 
 # print(df.shape)
 # print(df['Date of birth'])
-print(df['Job Title'])
+# print(df['Job Title'])
+# print(df[df['Sex']=='Female'])
+# print(df[df['Sex']=='Male'])
+# print=df[df['Job Title']=="Economist"]
+
+print(df['User Id'])
