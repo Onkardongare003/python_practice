@@ -15,9 +15,8 @@
 # Commit the changes
 # databaseobjectname.commit()
 
-import mysql.connector
 
-
+import mysql.connector  
 db=mysql.connector.connect(host="localhost",user="root",password="root",database="employee")
 
 
@@ -37,4 +36,3 @@ mycursor.execute(s,v)
 
 
 db.commit()
-
