@@ -18,5 +18,7 @@ s="insert into sidd(empid,empsalary,empage,empaddress,empeduaction) values(%s,%s
 v=(id,salary,age,address,eduacation)
 
 mycursor.execute(s,v)
+db.commit()
+
 
 
