@@ -14,3 +14,6 @@ address=input("Enter your address = ")
 eduacation=int(input("Enter your address = "))
 
 
+s="insert into sidd(empid,empsalary,empage,empaddress,empeduaction) values(%s,%s,%s,%s,%s)"
+v=(id,salary,age,address,eduacation)
+
