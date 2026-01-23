@@ -19,3 +19,4 @@ v=(id,salary,age,address,eduacation)
 
 mycursor.execute(s,v)
 
+
