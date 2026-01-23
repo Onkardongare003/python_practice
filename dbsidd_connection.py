@@ -1,8 +1,8 @@
 import mysql.connector
 db=mysql.connector.connect(
-    host="localhost"
-    user="root"
-    password="onkar"
+    host="localhost",
+    user="root",
+    password="onkar",
     database="siddhika"
 )
 
@@ -11,7 +11,7 @@ id=int(input("Enter the your id = "))
 salary=int(input("Enter Your Salary = "))
 age=int(input("Enter the Your age = "))
 address=input("Enter your address = ")
-eduacation=int(input("Enter your address = "))
+eduacation=int(input("Enter your Eduaction = "))
 
 
 s="insert into sidd(empid,empsalary,empage,empaddress,empeduaction) values(%s,%s,%s,%s,%s)"
